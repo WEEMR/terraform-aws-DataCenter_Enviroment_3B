@@ -5,7 +5,7 @@ To use this module Please go to (https://github.com/waleedrady/AWS_Cloud_DC_Envi
 Terraform Module that will create the AWS Networking Stack with FGT, Apache Server, Windows Server and utilize AWS Route53 for DNS.
 
 
-<img width="578" alt="image" src="https://user-images.githubusercontent.com/82145296/160900894-baa7db06-c72a-44d8-98cf-97ca7354f0ee.png">
+![image](https://user-images.githubusercontent.com/83562796/160910063-8fc92a7f-e136-457d-bff9-e9b5793938aa.png)
 
 
 The module will create the below resources:

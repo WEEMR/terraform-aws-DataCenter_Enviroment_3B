@@ -6,6 +6,10 @@ output "hub_1_WAN2" {
   value       = aws_eip.hub_1_WAN2.public_ip
 }
 
+output "lab_DNS_Name" {
+  value = aws_route53_record.lab.fqdn
+}
+
 output "hub1_FGT_DNS_Name" {
   value = aws_route53_record.hub1_FGT_Public_DNS.fqdn
 }

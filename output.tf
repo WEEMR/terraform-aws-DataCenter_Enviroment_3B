@@ -50,6 +50,10 @@ output "hub1_FMG_DNS_Name" {
   value = module.hub_1.hub1_FMG_Public
 }
 
+output "LAB_URLs" {
+  value = module.hub_1.lab_DNS_Name
+}
+
 # ----------- spoke 1  ----------- #
 
 output "spoke_1_WAN_1_EIP" {
